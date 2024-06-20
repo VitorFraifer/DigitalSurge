@@ -1,0 +1,119 @@
+.banner{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../imgs/banner/bannerImg.svg);
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+.text-banner{
+    width: 50%;
+}
+
+.text-banner p{
+    font-family: Poppins;
+    font-size: 3.5vw;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    color: white;
+
+}
+
+.text-banner span{
+    text-decoration: underline;
+    text-decoration-color: #FF5733;
+}
+
+.grafico-banner{
+    width: 50%;
+    background: #D9D9D940;
+    padding: 30px;
+}
+
+.grafico1{
+    width: 36vw;
+    height: 53vh;
+}
+
+.grafico2{
+    width: 36vw;
+    height: 27vh;
+    transform: translateY(-200px);
+
+}
+
+.grafico3{
+    width: 36vw;
+    height: 27vh;
+    transform: translateY(-350px);
+    margin-left: 20px;
+
+}
+
+.grafico4{
+    width: 12vw;
+    height: 25vh;
+    transform: translateY(-650px);
+    margin-left: 20px;
+    margin-bottom: -50px;
+
+}
+
+.grafico5{
+    width: 12vw;
+    height: 25vh;
+    transform: translateY(-650px);
+    margin-left: 20px;
+    margin-bottom: -50px;
+
+}
+
+@media (max-width: 700px){
+    .banner-content{
+        flex-direction: column;
+        width: 90%;
+    }
+    .text-banner{
+        width: 100%;
+    }
+
+    .text-banner p{
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .grafico-banner{
+        width: 100%;
+        padding: 0px;
+        height: 210px;
+        margin-top: 20px;
+    }
+
+    .grafico1{
+        width: 271.28px;
+        height: 170.86px;
+        margin-top: 20px;
+
+    }
+
+    .grafico2{
+        width: 270px;
+        height: 99.72px;
+        margin-bottom: -170px;
+        margin-left: 15px;
+
+    }
+}
