@@ -184,3 +184,120 @@
 .miniitem span{
     font-weight: 700;
 }
+
+@media (max-width: 700px){
+    .sobre-section-content{
+        margin-left: 20px;
+    }
+
+    .sobre-section-content h1{
+        width: 214px;
+        height: 32px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+
+    }
+
+    .subtituloSobre{
+        width: 90%;
+        height: 80px;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+
+    }
+
+    .cards-equipe-container{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .cards-equipe-container h3{
+        width: 101px;
+        height: 20px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .card{
+        width: 326px;
+        height: 333px;
+        margin-bottom: 15px;
+    }
+
+    .personal-info h3{
+        width: 107px;
+        height: 14px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 14px;
+        letter-spacing: 0.015em;
+        text-align: left;
+        margin-bottom: 3px;
+    }
+
+    .lower p{
+        width: 272px;
+        height: 168px;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+    }
+
+    .texto-historia{
+        width: 90%;
+        height: 480px;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .titulo-miniitens{
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        text-align: left;
+
+    }
+
+    .miniitem{
+        width: 312px;
+        height: 100px;
+    }
+
+    .miniitem img{
+        align-self: baseline;
+        margin-top: 10px;
+    }
+
+    .miniitem p{
+        width: 90%;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        align-self: baseline;
+        margin-top: 10px;
+    }
+}
