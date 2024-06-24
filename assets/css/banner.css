@@ -120,4 +120,9 @@ body{
         margin-left: 15px;
 
     }
+
+    .grafico4{
+        transform: translate(-120px, -220px);
+        margin: 0px;
+    }
 }

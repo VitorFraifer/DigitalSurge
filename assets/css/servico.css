@@ -1,0 +1,53 @@
+.servicoSection{
+    width: 100vw;
+    height: 128vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho-servicos{
+    margin-left: 11vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho-servicos h1{
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: left;
+    margin-top: 11vh;
+}
+
+.cabecalho-servicos p{
+    width: 80%;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.carrossel{
+    width: 90%;
+    height: 65vh;
+    background-color: white;
+    align-self: center;
+    margin-top: 90px;
+}
+
+.infoproduto{
+    width: 35vw;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.infoproduto img{
+    width: 100%;
+    height: 100%;
+}
