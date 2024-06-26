@@ -47,25 +47,3 @@ var posicao = 0
         }
     }
 });
-
-// var posicao = 0
-
-//  setaDireitaCarrossel.addEventListener ("click", () => {
-//     if(posicao == -74){
-//         carrossel.style.transform = `translateX(0vw)`;
-//         posicao = 0;
-//     }
-//     else{
-//         carrossel.style.transform = `translateX(${posicao -= 37}vw)`;
-//     }
-// });
-
-//  setaEsquerdaCarrossel.addEventListener ("click", () => {
-//     if(posicao == 0){
-//         carrossel.style.transform = `translateX(0vw)`;
-//         posicao = 0;
-//     }
-//     else{
-//         carrossel.style.transform = `translateX(${posicao += 37}vw)`;
-//     }
-// });
