@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../assets/css/sobre.css">
     <link rel="stylesheet" href="../assets/css/servico.css">
     <link rel="stylesheet" href="../assets/css/contato.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
     <script src="../assets/js/script.js" defer></script>
 </head>
 <body>
@@ -159,13 +160,15 @@
                 <div class="contato-left">
                     <h4>FALE CONOSCO</h4>
                     <p>Entre em contato e descubra como a Digital Surge pode transformar seu negócio com soluções digitais inovadoras. Nossa equipe de especialistas está pronta para entender suas necessidades e oferecer as melhores estratégias para impulsionar seu sucesso. Não perca a oportunidade de levar sua empresa ao próximo nível com a nossa ajuda!</p>
-                    <p class="ondeencontrar-text">ONDE NOS ENCONTRAR:</p>
-                    <div class="endereco">
-                        <img src="../assets/imgs/contato/locationpin.svg" class="enderecoImg">
-                        <p>Rua Dr. Besouro, 1997 - Cidade Alta / Natal - RN</p>
-                    </div>
-                    <div class="mapa">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.5169994087355!2d-76.60975202533609!3d39.27652432424731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8036ff51d1fbd%3A0x84f57dac4dacbe7!2sDigital%20Harbor%20High%20School!5e0!3m2!1spt-BR!2sbr!4v1719581625770!5m2!1spt-BR!2sbr" width="430" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="endereco-desktop">
+                        <p class="ondeencontrar-text">ONDE NOS ENCONTRAR:</p>
+                        <div class="endereco">
+                            <img src="../assets/imgs/contato/locationpin.svg" class="enderecoImg">
+                            <p>Rua Dr. Besouro, 1997 - Cidade Alta / Natal - RN</p>
+                        </div>
+                        <div class="mapa">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.5169994087355!2d-76.60975202533609!3d39.27652432424731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8036ff51d1fbd%3A0x84f57dac4dacbe7!2sDigital%20Harbor%20High%20School!5e0!3m2!1spt-BR!2sbr!4v1719581625770!5m2!1spt-BR!2sbr" width="430" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
                 <div class="contato-right">
@@ -174,7 +177,7 @@
                         <label>PREENCHA ABAIXO</label>
                     </div>
                     <form>
-                        <div class="row">
+                        <div class="row" id="mobile-none-form">
                             <div class="input-field">
                                 <label>Nome</label>
                                 <input>
@@ -184,12 +187,18 @@
                                 <input>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="input-field">
+                        <div class="row" id="desktop-none-form">
+                            <div class="input-field" id="input-field-mobile">
+                                <label>Nome Completo</label>
+                                <input>
+                            </div>
+                        </div>
+                        <div class="row" id="mobile-row">
+                            <div class="input-field" id="input-field-mobile">
                                 <label>E-mail</label>
                                 <input>
                             </div>
-                            <div class="input-field">
+                            <div class="input-field" id="input-field-mobile">
                                 <label>Telefone</label>
                                 <input id="telefone-placeholder" placeholder="(00) 99999-9999">
                             </div>
@@ -206,9 +215,49 @@
                         </div>
                         <button type="submit" class="btn-form">ENVIAR MENSAGEM</button>
                     </form>
+                    <div class="endereco-mobile">
+                        <p class="ondeencontrar-text">ONDE NOS ENCONTRAR:</p>
+                        <div class="endereco">
+                            <img src="../assets/imgs/contato/locationpin.svg" class="enderecoImg">
+                            <p>Rua Dr. Besouro, 1997 - Cidade Alta / Natal - RN</p>
+                        </div>
+                        <div class="mapa">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.5169994087355!2d-76.60975202533609!3d39.27652432424731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8036ff51d1fbd%3A0x84f57dac4dacbe7!2sDigital%20Harbor%20High%20School!5e0!3m2!1spt-BR!2sbr!4v1719581625770!5m2!1spt-BR!2sbr" width="430" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <footer>
+        <img src="../assets/imgs/logo-vector.svg" class="logo-footer">
+        <div class="footer-contato">
+            <h3>CONTATO</h3>
+            <label>
+                +55 84 99999-9999
+                contato@digitalsurge.com.br
+            </label>
+            <hr class="hr-footer">
+            <label>
+                Rua Dr. Besouro, 1997 - Cidade Alta
+                Natal - RN
+            </label>
+            <hr class="hr-footer">
+            <div class="redes-sociais">
+                <img src="../assets/imgs/footer/linkedin.svg">
+                <img src="../assets/imgs/footer/instagram.svg">
+                <img src="../assets/imgs/footer/facebook.svg">
+            </div>
+        </div>
+        <div class="iformacoes-footer">
+            <h3>INFORMAÇÕES</h3>
+            <div class="text-informacoes-footer">
+                <label>Início</label>
+                <label>Sobre</label>
+                <label>Serviços</label>
+                <label>Contato</label>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

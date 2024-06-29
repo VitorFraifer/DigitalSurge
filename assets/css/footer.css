@@ -1,0 +1,75 @@
+footer{
+    width: 100vw;
+    height: 50vh;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.logo-footer{
+    width: 116px;
+    height: 50px;
+}
+
+footer h3{
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-align: left;
+}
+
+.footer-contato{
+    width: 360px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contato label{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #C4C4C4;
+
+}
+
+.hr-footer{
+    width: 360px;
+    height: 1px;
+    border: 0px;
+    background-color: #4D4D4D;
+}
+
+.informacoes-footer{
+    width: 178px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-informacoes-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-informacoes-footer label{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #C4C4C4;
+
+}
+
+.redes-sociais img{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
