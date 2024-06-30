@@ -1,5 +1,11 @@
 body{
     overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .banner{
@@ -121,8 +127,19 @@ body{
 
     }
 
+    .grafico3{
+        width: 270px;
+        transform: translateY(-150px);
+    }
+
     .grafico4{
-        transform: translate(-120px, -220px);
+        width: 79px;
+        transform: translate(40px, -350px);
         margin: 0px;
+    }
+
+    .grafico5{
+        width: 120px;
+        transform: translate(40px, -410px);
     }
 }

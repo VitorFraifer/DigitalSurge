@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../assets/css/servico.css">
     <link rel="stylesheet" href="../assets/css/contato.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/modal.css">
     <script src="../assets/js/script.js" defer></script>
 </head>
 <body>
@@ -18,16 +19,16 @@
         <nav>
             <img src="../assets/imgs/logo-vector.svg">
             <ul>
-                <li>Início</li>
-                <li>Sobre</li>
-                <li>Serviço</li>
-                <li>Contato</li>
+                <li><a href="#inicioSection"></a>Início</li>
+                <li><a href="#sobreSection">Sobre</a></li>
+                <li><a href="#servicoSection">Serviço</a></li>
+                <li><a href="#contatoSection">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="banner">
+        <section class="banner" id="inicioSection">
             <div class="banner-content">
                 <div class="text-banner">
                     <p>Impulsione seu negócio com <span>estratégias</span> de Marketing Digital eficazes</p>
@@ -41,7 +42,7 @@
                 </div>
             </div>
         </section>
-        <section class="sobreSection">
+        <section class="sobreSection" id="sobreSection">
             <div class="sobre-section-content">
                 <h1>Sobre a Digital Surge</h1>
                 <p class="subtituloSobre">A Digital Surge é uma agência de marketing digital comprometida em ajudar empresas a alcançar seu público-alvo e aumentar suas vendas por meio de estratégias inovadoras e personalizadas.</p>
@@ -127,7 +128,7 @@
                 </div>
             </div>
         </section>
-        <section class="servicoSection">
+        <section class="servicoSection" id="servicoSection">
             <div class="cabecalho-servicos">
                 <h1>Serviços</h1>
                 <p>A Digital Surge oferece serviços completos de Gestão de Mídias Sociais, SEO, Marketing de Conteúdo e Publicidade Online, incluindo Google Ads e Facebook Ads. Nossa equipe especializada trabalha para aumentar sua visibilidade online, engajar seu público-alvo e impulsionar suas conversões, garantindo resultados significativos e mensuráveis para o seu negócio.
@@ -136,7 +137,7 @@
             </div>
             <div class="carrossel">
                 <div class="itens-carrossel">
-                    <div class="infoproduto">
+                    <div class="infoproduto" id="produto1">
                         <p>Gestão de Midias Sociais</p>
                     </div>
                     <div class="infoproduto" id="produto2">
@@ -154,7 +155,147 @@
                 <img src="../assets/imgs/servico/seta-direita.svg" class="seta-carrossel seta-direita">
             </div>
         </section>
-        <section class="contatoSection">
+        <div class="modal" id="modal-produto1">
+            <div class="modal-container">
+                <img src="../assets/imgs/modal/iconefechar.svg" class="icone-fechar-modal">
+                <p>Nosso serviço de Gestão de Mídias Sociais na Digital Surge é projetado para maximizar sua presença online, engajar seu público e promover sua marca de maneira eficaz. Com estratégias personalizadas e conteúdo atraente, ajudamos a aumentar o alcance e a interação nas suas plataformas sociais. Para saber mais sobre como podemos transformar suas mídias sociais, inscreva-se no formulário e receba nosso material exclusivo diretamente no seu e-mail cadastrado.</p>
+                <form>
+                    <div class="row">
+                        <div class="input-field">
+                            <label>Nome Completo</label>
+                            <input>
+                        </div>
+                        <div class="input-field" id="input-field-mobile">
+                            <label>Telefone</label>
+                            <input id="telefone-placeholder" placeholder="(00) 99999-9999">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input>
+                        </div>
+                        <div class="input-field" id="input-field-mobile">
+                            <label>Rede Social</label>
+                            <input id="telefone-placeholder" placeholder="https://instagram.com/">
+                        </div>
+                    </div>
+                    <div class="mobile-termos-condicoes">
+                        <div class="termos-e-condicoes">
+                            <input type="checkbox">
+                            <label>Li e concordo com os Termos & Condições.</label>
+                        </div>
+                        <button type="submit" class="btn-form">SOLICITAR MATERIAL</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal" id="modal-produto2">
+            <div class="modal-container">
+                <img src="../assets/imgs/modal/iconefechar.svg" class="icone-fechar-modal2">
+                <p>Nosso serviço de SEO (Otimização para Motores de Busca) é voltado para melhorar significativamente a visibilidade do seu site nos resultados de pesquisa, atraindo mais tráfego orgânico e qualificando leads. Com técnicas avançadas de SEO, como otimização de palavras-chave, melhorias técnicas e estratégias de link building, garantimos que seu site esteja sempre bem posicionado. Para descobrir como podemos impulsionar seu ranking nos motores de busca, inscreva-se no formulário e receba nosso material no e-mail cadastrado.</p>
+                <form>
+                    <div class="row">
+                        <div class="input-field">
+                            <label>Nome Completo</label>
+                            <input>
+                        </div>
+                        <div class="input-field" id="input-field-mobile">
+                            <label>Telefone</label>
+                            <input id="telefone-placeholder" placeholder="(00) 99999-9999">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input>
+                        </div>
+                        <div class="input-field" id="input-field-mobile">
+                            <label>Rede Social</label>
+                            <input id="telefone-placeholder" placeholder="https://instagram.com/">
+                        </div>
+                    </div>
+                    <div class="mobile-termos-condicoes">
+                        <div class="termos-e-condicoes">
+                            <input type="checkbox">
+                            <label>Li e concordo com os Termos & Condições.</label>
+                        </div>
+                        <button type="submit" class="btn-form">SOLICITAR MATERIAL</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal" id="modal-produto3">
+            <div class="modal-container">
+                <img src="../assets/imgs/modal/iconefechar.svg" class="icone-fechar-modal3">
+                <p>Nosso serviço de Marketing de Conteúdo é projetado para criar e distribuir conteúdo relevante e valioso que atraia e engaje seu público-alvo, promovendo a sua marca e impulsionando conversões. Desenvolvemos estratégias de conteúdo personalizadas que incluem blogs, artigos, infográficos e muito mais, tudo alinhado aos interesses e necessidades do seu mercado. Para saber como podemos transformar sua estratégia de conteúdo, inscreva-se no formulário e receba nosso material exclusivo diretamente no e-mail cadastrado.</p>
+                <form>
+                    <div class="row">
+                        <div class="input-field">
+                            <label>Nome Completo</label>
+                            <input>
+                        </div>
+                        <div class="input-field" id="input-field-mobile">
+                            <label>Telefone</label>
+                            <input id="telefone-placeholder" placeholder="(00) 99999-9999">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input>
+                        </div>
+                        <div class="input-field" id="input-field-mobile">
+                            <label>Rede Social</label>
+                            <input id="telefone-placeholder" placeholder="https://instagram.com/">
+                        </div>
+                    </div>
+                    <div class="mobile-termos-condicoes">
+                        <div class="termos-e-condicoes">
+                            <input type="checkbox">
+                            <label>Li e concordo com os Termos & Condições.</label>
+                        </div>
+                        <button type="submit" class="btn-form">SOLICITAR MATERIAL</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal" id="modal-produto4">
+            <div class="modal-container">
+                <img src="../assets/imgs/modal/iconefechar.svg" class="icone-fechar-modal4">
+                <p>O serviço de Publicidade Online na Digital Surge, especializado em Google Ads e Facebook Ads, é projetado para aumentar sua visibilidade e gerar leads qualificados de maneira eficaz. Com campanhas personalizadas que alcançam o público-alvo com precisão, otimizando continuamente para garantir o melhor retorno. Para descobrir como nossa expertise em publicidade online pode impulsionar seu negócio, inscreva-se no formulário e receba nosso material exclusivo diretamente no seu e-mail cadastrado.</p>
+                <form>
+                    <div class="row">
+                        <div class="input-field">
+                            <label>Nome Completo</label>
+                            <input>
+                        </div>
+                        <div class="input-field" id="input-field-mobile">
+                            <label>Telefone</label>
+                            <input id="telefone-placeholder" placeholder="(00) 99999-9999">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input>
+                        </div>
+                        <div class="input-field" id="input-field-mobile">
+                            <label>Rede Social</label>
+                            <input id="telefone-placeholder" placeholder="https://instagram.com/">
+                        </div>
+                    </div>
+                    <div class="mobile-termos-condicoes">
+                        <div class="termos-e-condicoes">
+                            <input type="checkbox">
+                            <label>Li e concordo com os Termos & Condições.</label>
+                        </div>
+                        <button type="submit" class="btn-form">SOLICITAR MATERIAL</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <section class="contatoSection" id="contatoSection">
             <h1>Contato</h1>
             <div class="contato-container">
                 <div class="contato-left">
@@ -230,32 +371,35 @@
         </section>
     </main>
     <footer>
+        <label class="copyright">Digital Surge © alguns diretos reservados.</label>
         <img src="../assets/imgs/logo-vector.svg" class="logo-footer">
-        <div class="footer-contato">
-            <h3>CONTATO</h3>
-            <label>
-                +55 84 99999-9999
-                contato@digitalsurge.com.br
-            </label>
-            <hr class="hr-footer">
-            <label>
-                Rua Dr. Besouro, 1997 - Cidade Alta
-                Natal - RN
-            </label>
-            <hr class="hr-footer">
-            <div class="redes-sociais">
-                <img src="../assets/imgs/footer/linkedin.svg">
-                <img src="../assets/imgs/footer/instagram.svg">
-                <img src="../assets/imgs/footer/facebook.svg">
+        <div class="footer-content">
+            <div class="footer-contato">
+                <h3>CONTATO</h3>
+                <label>
+                    +55 84 99999-9999
+                    contato@digitalsurge.com.br
+                </label>
+                <hr class="hr-footer">
+                <label>
+                    Rua Dr. Besouro, 1997 - Cidade Alta
+                    Natal - RN
+                </label>
+                <hr class="hr-footer">
+                <div class="redes-sociais">
+                    <img src="../assets/imgs/footer/linkedin.svg">
+                    <img src="../assets/imgs/footer/instagram.svg">
+                    <img src="../assets/imgs/footer/facebook.svg">
+                </div>
             </div>
-        </div>
-        <div class="iformacoes-footer">
-            <h3>INFORMAÇÕES</h3>
-            <div class="text-informacoes-footer">
-                <label>Início</label>
-                <label>Sobre</label>
-                <label>Serviços</label>
-                <label>Contato</label>
+            <div class="informacoes-footer">
+                <h3>INFORMAÇÕES</h3>
+                <div class="text-informacoes-footer">
+                    <label>Início</label>
+                    <label>Sobre</label>
+                    <label>Serviços</label>
+                    <label>Contato</label>
+                </div>
             </div>
         </div>
     </footer>

@@ -1,6 +1,6 @@
 footer{
     width: 100vw;
-    height: 50vh;
+    height: 52vh;
     background-color: #333333;
     color: white;
     display: flex;
@@ -27,6 +27,8 @@ footer h3{
     height: 300px;
     display: flex;
     flex-direction: column;
+    margin-left: -200px;
+    margin-right: 100px;
 }
 
 .footer-contato label{
@@ -72,4 +74,111 @@ footer h3{
     width: 25px;
     height: 25px;
     margin-right: 20px;
+}
+
+.footer-content{
+    display: flex;
+}
+
+.copyright{
+    display: flex;
+    align-self: flex-end;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    font-family: Lato;
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #C4C4C4;
+    margin-left: 50px;
+    margin-bottom: 40px;
+
+}
+
+@media (max-width: 700px){
+    footer{
+        margin-top: 400px;
+        flex-direction: column;
+        height: 265px;
+        padding: 0px;
+    }
+
+    .logo-footer{
+        width: 55.68px;
+        height: 24px;
+        margin-top: 30px;
+        margin-left: 40px;
+
+    }
+
+    .footer-content{
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .footer-contato{
+        width: 131px;
+        height: 97px;
+        margin: 0px;
+    }
+
+    footer h3{
+        font-family: Lato;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 12px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .footer-contato label{
+        font-family: Lato;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 12px;
+        text-align: left;
+    }
+
+    .redes-sociais img{
+        width: 16px;
+        height: 16px;
+        margin-right: 5px;
+    }
+
+    .hr-footer{
+        width: 130px;
+        height: 1px;
+        border: 0px;
+        background-color: #4D4D4D;
+    }
+
+    hr{
+        height: 2px;
+    }
+
+    .informacoes-footer{
+        margin-left: 50px;
+    }
+
+    .text-informacoes-footer label{
+        font-family: Lato;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 14px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .copyright{
+        display: flex;
+        transform: translate(-10px, 100px);
+        font-family: Lato;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: left;
+
+    }
 }

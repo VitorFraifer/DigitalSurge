@@ -10,6 +10,11 @@ header{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 header img{
     margin-left: 130px;
 }
